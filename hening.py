@@ -96,13 +96,16 @@ def runing_attack(ip,host,port_loader,time_loader,spam_loader,methods_loader,boo
 banner = f"""
 {Fore.WHITE}                             ┐ 
 {Fore.WHITE} ─────┐                     ││  
-{Fore.WHITE}─────┐│ ──────╮ ────┐  ────╮││    ╮{Fore.CYAN}
-{Fore.WHITE}     │││╭────╮│────┐│ ────╮│││ ╭╯╭╯{Fore.CYAN}
-{Fore.WHITE}     │││╰────╯│    ││╭────╯││╰─╯╭╯ {Fore.CYAN}
-{Fore.WHITE}     │││╭─────╯    │││────╮││╭─╮╰╮ {Fore.CYAN}
-{Fore.WHITE}╰────╯ ╰╰─────     ││╰────╯╯╰╯  ─╯ {Fore.CYAN}
+{Fore.WHITE}─────┐│ ──────╮ ────┐  ────╮││    ╮{Fore.CYAN}  ─────╮
+{Fore.WHITE}     │││╭────╮│────┐│ ────╮│││ ╭╯╭╯{Fore.CYAN}│╭────╯
+{Fore.WHITE}     │││╰────╯│    ││╭────╯││╰─╯╭╯ {Fore.CYAN}││
+{Fore.WHITE}     │││╭─────╯    │││────╮││╭─╮╰╮ {Fore.CYAN}╰────╮╮
+{Fore.WHITE}╰────╯ ╰╰─────     ││╰────╯╯╰╯  ─╯ {Fore.CYAN} ────╯╯
 {Fore.WHITE} ╰────╯  {Fore.CYAN}
 {Fore.CYAN}
+{Fore.WHITE}⬣ Datang tidak untuk mencari nama, hilang bukan untuk dikenang ⬣
+{Fore.WHITE}⬣        biarkan semua mengalir tanpa beban [anonimous]        ⬣
+{Fore.WHITE}⬣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⬣
 """
 print(banner)
 host = ""
