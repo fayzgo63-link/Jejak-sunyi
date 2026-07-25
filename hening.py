@@ -98,7 +98,7 @@ banner = f"""
 {Fore.YELLOW}
 
 
-
+"""
 print(banner)
 host = ""
 ip = ""
