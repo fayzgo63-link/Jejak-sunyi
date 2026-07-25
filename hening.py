@@ -94,14 +94,13 @@ def runing_attack(ip,host,port_loader,time_loader,spam_loader,methods_loader,boo
 
 #DATA
 banner = f"""
-{Fore.YELLOW}╭─────────────────╮ ────────────────╯┌───────────────┐└───────────────┘│
-{Fore.YELLOW} ─────┐
-{Fore.YELLOW}─────┐│╭─────   ────┐ ────╮
-{Fore.YELLOW}     │││╭────╮│────┐│────╮│
-{Fore.YELLOW}     │││╰────╯│    ││╭────╯│
-{Fore.YELLOW}     │││╭─────╯    │││────╮│
-{Fore.YELLOW}╰────╯ ╰╰─────     ││    ││
-{Fore.YELLOW}              ╰────╯╰────╯
+{Fore.YELLOW} ─────┐                         ╮ 
+{Fore.YELLOW}─────┐│ ─────╮  ────┐  ────╮││
+{Fore.YELLOW}     │││╭────╮│────┐│ ────╮│││
+{Fore.YELLOW}     │││╰────╯│    ││╭────╯││╰╯╭╯
+{Fore.YELLOW}     │││╭─────╯    │││────╮││╭┐╰┐
+{Fore.YELLOW}╰────╯ ╰╰─────     │ │    │││ ╰┐╰┐
+{Fore.YELLOW}              ╰────╯  ╰────╯╰╯ ╰─
 """
 print(banner)
 host = ""
