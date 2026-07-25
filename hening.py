@@ -100,7 +100,7 @@ banner = f"""
 {Fore.WHITE}     │││╭────╮│────┐│ ────╮│││ ╭╯╭╯{Fore.CYAN}│╭────╯ │    │││   ││
 {Fore.WHITE}     │││╰────╯│    ││╭────╯││╰─╯╭╯ {Fore.CYAN}││      │    │││   ││
 {Fore.WHITE}     │││╭─────╯    │││────╮││╭─╮╰╮ {Fore.CYAN}╰────╮╮ │    │││   ││
-{Fore.WHITE}╰────╯ ╰╰─────     ││╰────╯╯╰╯  ─╯ {Fore.CYAN} ────╯╯ ╰────╯ ╯   ╰╯
+{Fore.WHITE}╰────╯ ╰╰─────     ││╰────╯╯╰╯  ─╯ {Fore.CYAN} ────╯╯ ╰────╯╰   ╰╯
 {Fore.WHITE} ╰────╯  {Fore.CYAN}
 {Fore.CYAN}
 {Fore.WHITE}⬣ Datang tidak untuk mencari nama, hilang bukan untuk dikenang ⬣
