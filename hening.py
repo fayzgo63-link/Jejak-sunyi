@@ -94,10 +94,14 @@ def runing_attack(ip,host,port_loader,time_loader,spam_loader,methods_loader,boo
 
 #DATA
 banner = f"""
-{Fore.YELLOW}
-{Fore.YELLOW}
-
-
+{Fore.YELLOW}╭─────────────────╮ ────────────────╯┌───────────────┐└───────────────┘│
+{Fore.YELLOW} ─────┐
+{Fore.YELLOW}─────┐│  ─────╮ ────┐
+{Fore.YELLOW}      │││╭────╮│────┐│
+{Fore.YELLOW}      │││╰────╯│    ││
+{Fore.YELLOW}      │││╭─────╯    ││
+{Fore.YELLOW}╰────╯ ╰╰─────     ││
+{Fore.YELLOW}                ╰────╯
 """
 print(banner)
 host = ""
@@ -114,7 +118,7 @@ print(f"{Fore.LIGHTCYAN_EX}HTTP METHODS-> CONNECT GET PUT POST")
 print(f"{Fore.LIGHTCYAN_EX}HTTP METHODS-> SERVER CLOUDFLARE PYFLOODER GATEWAY")
 methods_loader = input(F"{Fore.CYAN}HTTP_METHODS: {Fore.GREEN}").upper()
 spam_create_thread = int(input(F"{Fore.CYAN}SPAM CREATE: {Fore.GREEN}"))
-print(f"{Fore.BLACK}TRYING TO GET IP:PORT {Fore.WHITE}. . .{Fore.RESET}")
+print(f"{Fore.BLACK}LOADING TO GET IP:PORT {Fore.RESET}")
 try:
     host = str(target_loader).replace("https://", "").replace("http://", "").replace("www.", "").replace("/", "")
     ip = socket.gethostbyname(host)
@@ -129,4 +133,4 @@ for loader_num in range(create_thread):
 clear_text()
 print(banner)
 status_code = True
-print(f"{Fore.GREEN}TRYING SENT . . .{Fore.RESET}")
+print(f"{Fore.GREEN}LOADING . . .{Fore.RESET}")
