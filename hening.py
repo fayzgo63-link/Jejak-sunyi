@@ -97,11 +97,11 @@ banner = f"""
 {Fore.YELLOW}╭─────────────────╮ ────────────────╯┌───────────────┐└───────────────┘│
 {Fore.YELLOW} ─────┐
 {Fore.YELLOW}─────┐│  ─────╮ ────┐
-{Fore.YELLOW}      │││╭────╮│────┐│
-{Fore.YELLOW}      │││╰────╯│    ││
-{Fore.YELLOW}      │││╭─────╯    ││
-{Fore.YELLOW}╰────╯ ╰╰─────     ││
-{Fore.YELLOW}                ╰────╯
+{Fore.YELLOW}     │││╭────╮│────┐│
+{Fore.YELLOW}     │││╰────╯│    ││
+{Fore.YELLOW}     │││╭─────╯    ││
+{Fore.YELLOW}╰────╯ ╰╰─────      ││
+{Fore.YELLOW}                 ╰────╯
 """
 print(banner)
 host = ""
