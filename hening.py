@@ -103,9 +103,9 @@ banner = f"""
 {Fore.WHITE}╰────╯ ╰╰─────     ││╰────╯╯╰╯  ─╯ {Fore.CYAN} ────╯╯ ╰────╯ ╰   ╰╯╰────╮│ ╯
 {Fore.WHITE}                ╰────╯                 {Fore.CYAN}                  ────╯╯
 {Fore.CYAN}
-{Fore.WHITE}⬣ Datang tidak untuk mencari nama, hilang bukan untuk dikenang ⬣
-{Fore.WHITE}⬣        biarkan semua mengalir tanpa beban [anonimous]        ⬣
-{Fore.WHITE}⬣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⬣
+{Fore.WHITE}⬣  Datang tidak untuk mencari nama, hilang bukan untuk dikenang  ⬣
+{Fore.WHITE}⬣         biarkan semua mengalir tanpa beban [anonimous]         ⬣
+{Fore.WHITE}⬣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⬣
 """
 print(banner)
 host = ""
